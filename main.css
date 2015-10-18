@@ -21,6 +21,7 @@ header {
     height: 110px;
     margin-top: 0;
     padding-top: 0;
+    border-bottom: 5px solid brown;
 }
 body header {
     background-color: #ffcc99;
@@ -41,6 +42,30 @@ footer {
     height: 100%;
 }
 main img {
+    margin-top: 2em;
     height: 275px;
     width: 400px;
+}
+#navBar {
+    float: left;
+    margin-top: 2.5em;
+    margin-right: 1em;
+}
+#navBar ul {
+    list-style-type: none;
+    margin-left: 1em;
+    margin-bottom: 1.5em;
+}
+#navBar ul li {
+    width: 100px;
+    margin-bottom: .5em;
+    border: 2px solid black;
+}
+#navBar ul li a {
+    display: block;
+    padding: .5em .5em .5em .5em;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background-color: #ffcc99;
 }
