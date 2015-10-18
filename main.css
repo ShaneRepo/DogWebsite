@@ -26,6 +26,12 @@ header {
     padding-top: 0;
     border-bottom: 5px solid brown;
 }
+.indentIndex h3 {
+    margin-left: 1em;
+}
+.indentIndex p {
+    margin-left: 1em;
+}
 body header {
     background-color: #ffcc99;
     overflow-x: hidden;
