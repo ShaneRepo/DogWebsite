@@ -16,6 +16,9 @@ body {
     border: 7px double brown;
 
 }
+#logo {
+    width: 85px;
+}
 header {
     text-align: center;
     height: 110px;
