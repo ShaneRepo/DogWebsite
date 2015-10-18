@@ -3,3 +3,9 @@ Shane Teall
 CIS 126
 Midterm Assignment
 */
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    width: 850px;
+    border: 7px double brown;
+}
