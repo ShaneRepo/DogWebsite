@@ -4,6 +4,8 @@ CIS 126
 Midterm Assignment
 */
 html {
+    margin: 0;
+    padding: 0;
     background-color: #ffffcc;
 }
 body {
@@ -12,9 +14,22 @@ body {
     font-family: "Times New Roman", Times, serif;
     width: 850px;
     border: 7px double brown;
+
 }
 header {
+    text-align: center;
+    height: 110px;
+    margin-top: 0;
+    padding-top: 0;
+}
+body header {
     background-color: #ffcc99;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+header img {
+    float: right;
+    margin: .5em;
 }
 footer {
     background-color: #ffcc99;
@@ -24,4 +39,8 @@ footer {
     clear: both;
     min-height: 100%;
     height: 100%;
+}
+main img {
+    height: 275px;
+    width: 400px;
 }
