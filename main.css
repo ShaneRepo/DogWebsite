@@ -32,6 +32,9 @@ header img {
     float: right;
     margin: .5em;
 }
+header h1 {
+    margin-top: 1.75em;
+}
 footer {
     background-color: #ffcc99;
     font-size: 90%;
